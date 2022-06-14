@@ -3,11 +3,12 @@ import React from "react";
 const Footer = () => {
     return (
         <>
-            <div class="newTopFixed">
-                <a href="#top" class="">
-                    <i class="fa fa-angle-up pulse2"></i>
+            <div className="newTopFixed">
+                <a href="#top">
+                    <i className="fa fa-angle-up pulse2" />
                 </a>
             </div>
+
             <div className="with_top" />
             <footer>
                 {/* <div class="with_top"></div> */}

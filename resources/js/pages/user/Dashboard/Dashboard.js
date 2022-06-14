@@ -13,6 +13,7 @@ const Dashboard = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/lesson" element={<Lesson />} />
+                <Route path="/lessonCard/:cardId" element={<Lesson />} />
                 <Route path="/exam" element={<Exam />} />
                 <Route path="/exercise" element={<Exercise />} />
             </Routes>
